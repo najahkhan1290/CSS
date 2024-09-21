@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduction to CSS</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        h2{
+            color: brown;
+        }
+        /*styling using id*/
+        #hello{
+            color: aquamarine;
+        }
+        /*styling using class*/
+        .hi{
+            color: pink;
+        }
+        body{
+            background-color: beige;
+        }
+        /*universal selector*/
+        *{
+            font-family: monospace;
+        }
+        /*Group selector*/
+        h3,h2{
+            font-size:xx-large;
+            font-weight:bold;
+        }
+    </style>
+</head>
+<body>
+    <!--inline css-->
+    <h1 style="color:maroon;">Introduction to CSS </h1>
+    <!--internal css-->
+    <h2>Cascading Style Sheet</h2>
+    <!--external css-->
+    <h3>External CSS</h3>
+    <h3 id="hello">Hello World</h3>
+    <h3 class="hi">Bye World</h3>
+    <p>Html and CSS work together to make  interactive webpage. 
+        HTML is like the skeleton and CSS is the styling of that Skeleton.</p>
+</body>
+</html>
